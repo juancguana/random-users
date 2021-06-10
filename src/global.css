@@ -1,0 +1,15 @@
+/* Primero agregaremos algunos estilos globales para toda nuestra aplicación web,
+a nivel de src crearemos un archivo global.css y agregamos lo siguiente, ahora importamos este archivo en nuestro index.js ahora ya se aplica a todo nuestro proyecto estos estilos */
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  background-color: #dcd3ea;
+}

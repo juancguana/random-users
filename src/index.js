@@ -2,12 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import ItemUser from './components/ItemUser';
 import Title from './components/Title';
-
-const element = <h1>Hola mundo</h1>;
+import './global.css';
 
 const container = document.getElementById('root');
 
-ReactDOM.render(<>
-  <Title/>
-  <ItemUser/>
-</>, container);
+ReactDOM.render(
+  <>
+    <Title />
+    <ItemUser />
+  </>,
+  container
+);
