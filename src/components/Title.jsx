@@ -8,4 +8,8 @@ Title.propTypes = {
   text : PropTypes.string.isRequired
 }
 
+Title.defaultProps = {
+  text: 'Este es un titulo'
+}
+
 export default Title;

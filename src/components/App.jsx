@@ -11,7 +11,7 @@ const data = {
 const App = () => {
   return (
     <>
-      <Title text="Lista de usuarios" />
+      <Title />
       <ItemUser user={data}/>
     </>
   );
