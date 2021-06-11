@@ -1,5 +1,7 @@
 import React from 'react';
 import './styles/ItemUser.css'
+import PropTypes from 'prop-types';
+
 class ItemUser extends React.Component {
   render() {
     const { name, country, email } = this.props.user;
@@ -17,6 +19,15 @@ class ItemUser extends React.Component {
       </div>
     );
   }
+}
+
+ItemUser.propTypes = {
+  user: PropTypes.shape({
+    name: PropTypes.string,
+    country: PropTypes.string,
+    email: PropTypes.string
+  })
+  
 }
 
 export default ItemUser;
